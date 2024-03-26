@@ -1,0 +1,115 @@
+
+
+.title_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best_box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.btn_box{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.btn_box>img{
+    margin-left: -10px;
+}
+
+.btn_box>img:first-child{
+    margin-left: 0;
+}
+
+.container_box{
+    background-color: #FFFFE2;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    padding: 5px;
+}
+
+.menu_box{
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #777;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.price_box{
+    margin-top: 18px;
+    display: flex;
+    text-align: start;
+    font-size: 10px;
+    font-weight: lighter;
+    justify-content: space-between;
+}
+
+.price_box1>div{
+    padding: 2px;
+}
+
+/* .price_box2{
+    display: flex;
+    text-align: start;
+    font-size: 10px;
+    font-weight: lighter;
+} */
+
+.price_box2>div{
+    padding: 2px;
+}
+
+.chat_box{
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    z-index: 2;
+}
+
+.chat_box>:nth-child(2){
+    position: fixed;
+    bottom: 72px;
+    right: 47px;
+    z-index: 2;
+}
+
+.event_box{
+    position: fixed;
+    bottom: 29px;
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+
+    width: 100%;
+    background-color: gray;
+    color: white;
+    z-index: 1;
+}
+
+.footer_img{
+    position: fixed;
+    bottom: 0px;
+
+    width: 100%;
+    background-color: #bbb;
+    border-color: #aaa;
+    border-top: 1px solid;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
